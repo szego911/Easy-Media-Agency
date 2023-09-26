@@ -204,7 +204,7 @@ import {
       source_code_link: "https://vitrinszeged.hu/",
     },
     {
-      name: "Stefania Catering",
+      name: "Easy Catering",
       description:
         "A honlap galériáján végig lapozva bepillantást nyerhetünk a rendezvényekre, valamint emailt is küldhetünk egyenesen az oldalról. ",
       tags: [
@@ -222,7 +222,7 @@ import {
         },
       ],
       image: stefania,
-      source_code_link: "https://stefania-catering.netlify.app/",
+      source_code_link: "https://easy-catering.netlify.app/",
     },
     {
       name: "To Do app",

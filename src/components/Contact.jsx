@@ -70,7 +70,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         
-        <p className={styles.sectionSubText}>Ingyenes konzultációért írj emailt!</p>
+        <p className={styles.sectionSubText}>{import.meta.env.VITE_APP_EMAILJS_SERVICE_ID}Ingyenes konzultációért írj emailt!</p>
         <h3 className={styles.sectionHeadText}>Kapcsolat.</h3>
 
         <form

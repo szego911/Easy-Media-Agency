@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -7,55 +7,60 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-const serviceC = import.meta.env.VITE_SOME_KEY_SERVICE_CODE;
-const templateC = import.meta.env.VITE_SOME_KEY_TEMPLATE_CODE;
-const myEmail = import.meta.env.VITE_SOME_KEY_OWN_PAGE;
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
-  const [loading, setLoading] = useState(false)
+
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { target } = e;
+    const { name, value } = target;
 
-    setForm({ ...form, [name]: value })
-  }
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send(
-      serviceC, 
-      templateC, 
-      {
-        from_name: form.name,
-        to_name: "Easy Media Agency",
-        from_email: form.email,
-        to_email: 'info@easymediaagency.com',
-        message: form.message,
-      },
-      myEmail
-      )
-      .then(() => {
-        setLoading(false);
-        alert('Köszönjük! Az üzenetre hamarosan válaszolunk!');
 
-        setForm({
-          name: '',
-          email: '',
-          message: '',
-        })
-      }, (error) => {
-        setLoading(false);
-        console.log(error);
-        alert('Valami hiba történt')
-      })
-  }
+    emailjs.send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: "Easy Media Agency",
+          from_email: form.email,
+          to_email: "info@easymediaagency.com",
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        )
+      .then(() => {
+          setLoading(false);
+          alert("Üzenet elküldve, hamarosan válaszolunk!");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+
+          alert("Valami hiba történt.");
+        }
+      );
+  };
  
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse 

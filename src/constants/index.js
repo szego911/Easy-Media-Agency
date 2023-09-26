@@ -101,7 +101,7 @@ import {
   
   const experiences = [
     {
-      title: "Mérnökinformatikus hallgató",
+      title: "Mérnökinfo hallgató",
       company_name: "Szegedi Tudomány Egyetem",
       icon: szte,
       iconBg: "#212a43",

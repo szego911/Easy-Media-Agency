@@ -32,8 +32,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-        "service_qzdeudn",
-        "template_89ulswr",
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Easy Media Agency",
@@ -41,7 +41,7 @@ const Contact = () => {
           to_email: "info@easymediaagency.com",
           message: form.message,
         },
-        "M7Q4EQ8IycHoJt6UW"
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
         )
       .then(() => {
           setLoading(false);

@@ -19,7 +19,7 @@ import {
     carrent,
     vitrinbar,
     jobit,
-    stefania,
+    catering,
     todoapp, 
     tripguide,
     threejs,
@@ -221,7 +221,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: stefania,
+      image: catering,
       source_code_link: "https://easy-catering.netlify.app/",
     },
     {

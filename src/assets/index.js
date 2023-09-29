@@ -26,7 +26,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import vitrinbar from "./vitrinbar.png";
-import stefania from "./stefania.png";
+import catering from "./catering.png";
 import jobit from "./jobit.png";
 import todoapp from "./todoapp.png";
 import tripguide from "./tripguide.png";
@@ -57,7 +57,7 @@ export {
   tesla,
   carrent,
   vitrinbar,
-  stefania,
+  catering,
   jobit,
   todoapp,
   tripguide,

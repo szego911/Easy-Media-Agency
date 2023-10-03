@@ -12,8 +12,9 @@ import {
     git,
     figma,
     meta,
+    grafika,
+    coca,
     starbucks,
-    szte,
     tesla,
     shopify,
     carrent,
@@ -85,57 +86,57 @@ import {
   
   const experiences = [
     {
-      title: "Mérnökinfo hallgató",
-      company_name: "Szegedi Tudomány Egyetem",
-      icon: szte,
-      iconBg: "#212a43",
-      date: "2022 Szeptember - 2026 Január",
-      points: [
-        "A Szegedi Tudomány Egyetem hallgatója vagyok mérnökinformatikus szakon 2022 szeptember óta.",
-        "Tanulmányaim alatt több programozási nyelvvel is megismerkedtem, mint a C, Python, Java, és Php.",
-        "Ezenkívül webtervezést is tanultam, ahol a HTML, CSS, Php és Javascript nyelveket is alaposan megtanultam",
-        "Szabadidőmben saját honlapokat készítek például React, Tailwind és Threejs segítségével, hogy fejlesszem a tudásom.",
-      ],
-    },
-    {
-      title: "Weboldal készítés",
-      company_name: "Easy Media Agency",
+      title: "Honlap készítés",
+      company_name: "1-3 hét",
       icon: logo,
       iconBg: "#FF4A3F",
-      date: "2023 Március óta",
+      date: "",
       points: [
-        "Weboldal készítés személyreszabva. Landing page, portfolio és termékbemutató oldalakat készítek ",
-        "Az igényes, modern és mobilbarát honlap nálunk az alap, inneltől csak a Te igényeid szablyák meg a végeredményt.",
-        "A pulikálást és a keresőoptimalizálást is vállalom, hogy zökkenőmentesen induljon a minden.",
-        "Nagy terjedelmű galéria, információs kártyák, térkép vagy közvetlen üzenet a weboldalról? Sima ügy!",
-      ],
-    },
-    /*{
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Egy jó weboldal nagy szerepet játszik egy vállalkozás életében.",
+        "Ezért fontos, hogy neked is a legjobb honlapod legyen, ami segít az új ügyfelek elérésében.",
+        "Mi segíthetünk olyan oldalt készíteni, ami passzol az igényeidhez és felhasználóbarát.",
+        "Email küldés az oldalról, galéria és interaktív elemek színesíthetik a vállalkozásodat bemutató honlapot.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Shopify webshop",
+      company_name: "Pár nap - 2 hét",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A droppshipping üzleti modell előnye, hogy nem kell raktárkészletet tartanunk, mivel a termék a gyártótól egyenesen a vevőhöz megy.",
+        "Ezt egy Shopify webshopon lehet megoldani, ami képes a vásárlási folyamatot lebonyolítani.",
+        "Ilyen webshopot létrehozni azért célszerú, amivel könnyű statisztikát készítni a vásárlásokról.",
+        "Tökéletes megoldás egy kezdő vállalkozás beindításához, mivel gyorsan és egyszerűen használható.",
       ],
-    },*/
+    },
+    {
+      title: "Brand építés",
+      company_name: "",
+      icon: coca,
+      iconBg: "#E41E2B",
+      date: "",
+      points: [
+        "A jól felépített és megtervezett honlap önmagában nem elég.",
+        "Egy vállalkozás akkor lesz sikeres, ha minél többen érnek el hozzá.",
+        "Ezért fontos a brand építés, ahol a cégről kialakult képet tudjuk alakítani. ",
+        "Ez a folyamat tervezést és odafigyelést igényel, bízd ránk a brand-ed és válj sikeressé.",
+      ],
+    },
+    {
+      title: "Grafika tervezés",
+      company_name: "1-2 hét",
+      icon: grafika,
+      iconBg: "#47b39d",
+      date: "",
+      points: [
+        "Az igényes grafika emeli egy vállalkozás profiljának minőségét.",
+        "Például az egységes design segít abban, hogy egy honlapot könnyen megjegyezzenek és újra felkeressék.",
+        "Nálunk biztos lehetsz abban, hogy a neked megfelelő stílust fogod kapni.",
+        "Legyen Tiéd a legfigyelemfelkeltőbb grafika, amit a honlapodon és a közzösségi médián is használhatsz.",
+      ],
+    },
   ];
   
   const testimonials = [
@@ -190,7 +191,7 @@ import {
     {
       name: "Easy Catering",
       description:
-        "A honlap galériáján végig lapozva bepillantást nyerhetünk a rendezvényekre, valamint emailt is küldhetünk egyenesen az oldalról. ",
+        "A honlap galériáján végiglapozva bepillantást nyerhetünk a rendezvényekre, valamint emailt is küldhetünk egyenesen az oldalról. ",
       tags: [
         {
           name: "html",

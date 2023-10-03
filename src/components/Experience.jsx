@@ -18,7 +18,7 @@ const ExperienceCard = ({ experience}) => (
     icon={
       <div className='flex justify-center items-center w-full h-full'>
         <img src={experience.icon} alt={experience.company_name} 
-        className='w-[60%] h-[60%] object-contain'/>
+        className='w-[75%] h-[75%] object-contain'/>
       </div>
     }
   >
@@ -45,8 +45,8 @@ const Experience = () => {
       <motion.div
         variants={textVariant()}
       >
-        <p className={styles.sectionSubText}>Tanulmányok</p>
-        <h2 className={styles.sectionHeadText}>Tapasztalat</h2>
+        <p className={styles.sectionSubText}></p>
+        <h2 className={styles.sectionHeadText}>Szolgáltatások.</h2>
       </motion.div>
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>

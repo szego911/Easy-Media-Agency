@@ -71,7 +71,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Munkáim</p>
+        <p className={`${styles.sectionSubText} `}>Munkáink</p>
         <h2 className={`${styles.sectionHeadText}`}>Projektek.</h2>
       </motion.div>
 
@@ -80,11 +80,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-         Szeretem a kihívásokat, így nyitott vagyok mindenféle honlap stílusra. Véleményem szerint egy honlap 
-         az egyik legjobb módja a bemutatkozásnak, legyen az portfolio, termék, hely vagy szolgáltatás bemutató oldal.
-         Az animációk és az élénk színek bizalmat keltenek a weboldalra látogatókban, ezzel segítve azt, hogy megvegyék 
-         a termékünket vagy felkeresség a vállalkozást. A munkáim során nagy hangsúlyt 
-         fektetek a személyre szabásban, ezért fontos a kommunikáció az ügyfeleimmel.
+          A kihívások sosem jelentettek gondot nálunk, legyen szó akármilyen honlapról. A fő célunk, hogy 
+          olyan weboldalt készítsünk, ami tökéletesen passzol az ügyféleink igényeihez. A különböző stílus és 
+          honlap elemek személyre szabása nagy szerepet játszik a munkánkban, ami nagy terhet vesz le a megrendelő válláról.
+          Fontos a kommunikáció a munkafolyamatok során, így a honlap készítés teljes folyamatát végig lehet követni.
+          <br />Az eddigi munkáink közé tartozik ez a bemutatkozó oldal is a többi projekt mellett, amiket itt lent tudsz megtekinteni.
         </motion.p>
       </div>
 

@@ -46,9 +46,9 @@ const About = () => {
         Weboldal készítéssel és üzemeltetéssel foglalkozunk. 
         Ebbe beletartozik a tervezés, kivitelezés, publikálás és weboptimalizáció is.
         Legfőbb célunk, hogy olyan honlapot hozzunk létre, ami igényes, jól működő és praktikus. 
-        Különleges kéréseknek is szívesen eleged teszünk természetesen, mivel nálunk 
+        Különleges kéréseknek is szívesen eleget teszünk természetesen, mivel nálunk 
         az ügyfél az első. <br/> Shopify webshop tervezésben is otthon vagyunk. Az online vezetett raktárkészlet a termékekről, 
-        a fizetési rendszer és a termékek felvitele a rendszerbe is a mi gondunk, neked csak a jó termékeket kell megtalálnod.
+        a fizetési rendszer és a termékek felvitele is a mi gondunk, neked csak a jó termékeket kell megtalálnod.
         <br/>Legyen szó étteremről, manufaktúráról, termék vagy szolgáltatás értékesítésről, mi biztosan kihozzuk a maximumot a honlapodból! 
         
 

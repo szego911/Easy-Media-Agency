@@ -21,8 +21,9 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import szte from "./company/szte.png";
+import coca from "./company/coca.png";
 import tesla from "./company/tesla.png";
+import grafika from "./company/grafika.png";
 
 import carrent from "./carrent.png";
 import vitrinbar from "./vitrinbar.png";
@@ -37,6 +38,7 @@ export {
   creator,
   mobile,
   web,
+  coca,
   github,
   info,
   menu,
@@ -51,9 +53,9 @@ export {
   tailwind,
   threejs,
   meta,
+  grafika,
   shopify,
   starbucks,
-  szte,
   tesla,
   carrent,
   vitrinbar,

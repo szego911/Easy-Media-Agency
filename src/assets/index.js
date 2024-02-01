@@ -27,7 +27,7 @@ import grafika from "./company/grafika.png";
 
 import carrent from "./carrent.png";
 import vitrinbar from "./vitrinbar.png";
-import catering from "./catering.png";
+import morasolar from "./morasolar.png";
 import jobit from "./jobit.png";
 import todoapp from "./todoapp.png";
 import tripguide from "./tripguide.png";
@@ -48,6 +48,7 @@ export {
   git,
   html,
   javascript,
+  morasolar,
   nodejs,
   reactjs,
   tailwind,
@@ -59,7 +60,6 @@ export {
   tesla,
   carrent,
   vitrinbar,
-  catering,
   jobit,
   todoapp,
   tripguide,

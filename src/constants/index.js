@@ -14,13 +14,13 @@ import {
     meta,
     grafika,
     coca,
+    morasolar,
     starbucks,
     tesla,
     shopify,
     carrent,
     vitrinbar,
     jobit,
-    catering,
     todoapp, 
     tripguide,
     threejs,
@@ -51,10 +51,10 @@ import {
       title: "Shopify webshop",
       icon: mobile,
     },
-    {
+    /*{
       title: "Brandépítés",
       icon: backend,
-    },
+    },*/
     {
       title: "Grafika tervezés",
       icon: creator,
@@ -111,7 +111,7 @@ import {
         "Tökéletes megoldás egy kezdő vállalkozás beindításához, mivel gyorsan és egyszerűen használható.",
       ],
     },
-    {
+   /* {
       title: "Brand építés",
       company_name: "",
       icon: coca,
@@ -123,7 +123,7 @@ import {
         "Ezért fontos a brand építés, ahol a cégről kialakult képet tudjuk alakítani. ",
         "Ez a folyamat tervezést és odafigyelést igényel, bízd ránk a brand-ed és válj sikeressé.",
       ],
-    },
+    },*/
     {
       title: "Grafika tervezés",
       company_name: "1-2 hét",
@@ -189,9 +189,9 @@ import {
       source_code_link: "https://vitrinszeged.hu/",
     },
     {
-      name: "Easy Catering",
+      name: "Mora Solar 88 Kft.",
       description:
-        "A honlap galériáján végiglapozva bepillantást nyerhetünk a rendezvényekre, valamint emailt is küldhetünk egyenesen az oldalról. ",
+        "Egy letisztult design segít a leendő ügyfeleknek eligazodni a cég szolgáltatásai között, valamint széleskörű betekintést ad a szakmai tudásról. ",
       tags: [
         {
           name: "html",
@@ -206,8 +206,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: catering,
-      source_code_link: "https://easy-catering.netlify.app/",
+      image: morasolar,
+      source_code_link: "https://morasolar.com/",
     },
     {
       name: "To Do app",

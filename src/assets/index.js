@@ -25,12 +25,12 @@ import coca from "./company/coca.png";
 import tesla from "./company/tesla.png";
 import grafika from "./company/grafika.png";
 
-import carrent from "./carrent.png";
 import vitrinbar from "./vitrinbar.png";
 import morasolar from "./morasolar.png";
-import jobit from "./jobit.png";
 import todoapp from "./todoapp.png";
 import tripguide from "./tripguide.png";
+
+import adatvedelem from "./adatvedelem.pdf";
 
 export {
   logo,
@@ -58,9 +58,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   vitrinbar,
-  jobit,
   todoapp,
   tripguide,
+  adatvedelem,
 };

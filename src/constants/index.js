@@ -23,7 +23,7 @@ import {
     tripguide,
     threejs,
     logo,
-    adatvedelem,
+   
   } from "../assets";
   
   export const navLinks = [

@@ -30,7 +30,7 @@ import morasolar from "./morasolar.png";
 import todoapp from "./todoapp.png";
 import tripguide from "./tripguide.png";
 
-import adatvedelem from "./adatvedelem.pdf";
+
 
 export {
   logo,
@@ -61,5 +61,5 @@ export {
   vitrinbar,
   todoapp,
   tripguide,
-  adatvedelem,
+  
 };

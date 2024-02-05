@@ -10,7 +10,7 @@ import {
   FooterLink,
   Heading,
 } from "./FooterStyles";
-import { adatvedelem } from "../assets";
+
 import { motion } from "framer-motion";
 import { logo, menu, close } from "../assets";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -41,7 +41,7 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Kapcsolat</Heading>
-            <FooterLink href="adatvedelem.pdf">Impresszum és adatvédelem</FooterLink>
+            <FooterLink href="./adatvedelem.pdf">Impresszum és adatvédelem</FooterLink>
             <FooterLink href="tel:+36303167102">+36 30 31 67 102</FooterLink>
             <FooterLink href="mailto:info@easymediaagency.com">info@easymediaagency.com</FooterLink>
             

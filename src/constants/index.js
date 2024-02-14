@@ -36,9 +36,14 @@ import {
       title: "Projektek",
     },
     {
+      id: "arak",
+      title: "Árak",
+    },
+    {
       id: "contact",
       title: "Kapcsolat",
     },
+    
   ];
   
   const services = [

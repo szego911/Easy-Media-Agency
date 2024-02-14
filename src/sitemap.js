@@ -7,6 +7,7 @@ const urls = [
   { url: '/about', changefreq: 'monthly', priority: 0.8 },
   { url: '/work', changefreq: 'monthly', priority: 0.8 },
   { url: '/contact', changefreq: 'monthly', priority: 0.8 },
+  { url: '/footer', changefreq: 'monthly', priority: 0.8 },
 ];
 
 const sitemapInstance = sitemap.createSitemap({

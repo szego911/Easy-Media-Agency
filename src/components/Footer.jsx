@@ -11,13 +11,13 @@ import {
   Heading,
 } from "./FooterStyles";
 
+import { SectionWrapper } from '../hoc';
 import { motion } from "framer-motion";
-import { logo, menu, close } from "../assets";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 const Footer = () => {
   return (
-    <Box>
+    <Box id="footer">
       <motion.div variants={textVariant()}>
         <p className="sm:text-[22px] text-center mb-[40px] text-[20px] text-secondary uppercase tracking-wider">
           Easy Media Agency
@@ -29,7 +29,7 @@ const Footer = () => {
           <Column>
             <Heading>Az oldalról</Heading>
             <FooterLink href="#about">Rólunk</FooterLink>
-            <FooterLink href="#work">Projektek</FooterLink>
+            <FooterLink href="#arak">Árak</FooterLink>
             <FooterLink href="#contact">Küldj Emalit!</FooterLink>
           </Column>
           <Column>

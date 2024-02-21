@@ -10,12 +10,12 @@ const Pricing = () => {
 
   const packages = [
     {
-      name: "Workpress",
+      name: "Wordpress",
       price: "100.000",
       monthlyPrice: 29,
       yearlyPrice: 199,
       description:
-        "Rövid határidővel elkészített workpress oldal egyedi design alapján. Ideális, ha egyszerű honlap kell kevés funkcióval. ",
+        "Rövid határidővel elkészített wordpress oldal egyedi design alapján. Ideális, ha egyszerű honlap kell kevés funkcióval. ",
       green: "/src/assets/green-dot.png",
       services: [
         "Tárhely és domain ügyintézés*",

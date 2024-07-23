@@ -136,7 +136,7 @@ const experiences = [
     iconBg: "#47b39d",
     date: "",
     points: [
-      "Az igényes grafika emeli egy vállalkozás profiljának minőségét.",
+      "Az igényes grafika emeli egy vállalkozás profiljának minőségét. ",
       "Például az egységes design segít abban, hogy egy honlapot könnyen megjegyezzenek és újra felkeressék.",
       "Nálunk biztos lehetsz abban, hogy a neked megfelelő stílust fogod kapni.",
       "Legyen Tiéd a legfigyelemfelkeltőbb grafika, amit a honlapodon és a közzösségi médián is használhatsz.",

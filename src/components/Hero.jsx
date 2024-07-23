@@ -21,7 +21,7 @@ const Hero = () => {
             <span className='text-[#915eff]'>Easy Media Agency</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Weboldal a Te ígényeidre szabva.
+            Weboldal a Te igényeidre szabva.
             <br className='sm:block hidden'/>
             
           </p>

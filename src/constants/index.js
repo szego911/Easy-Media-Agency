@@ -61,7 +61,7 @@ const services = [
       icon: backend,
     },*/
   {
-    title: "Grafika tervezés",
+    title: "Weboldal karbantartás",
     icon: creator,
   },
 ];
@@ -97,10 +97,10 @@ const experiences = [
     iconBg: "#FF4A3F",
     date: "",
     points: [
-      "Egy jó weboldal nagy szerepet játszik egy vállalkozás életében.",
-      "Ezért fontos, hogy neked is a legjobb honlapod legyen, ami segít az új ügyfelek elérésében.",
-      "Mi segíthetünk olyan oldalt készíteni, ami passzol az igényeidhez és felhasználóbarát.",
+      "Egy jó weboldal nagy szerepet játszik egy vállalkozás életében, segít az új ügyfelek elérésében.",
+      "Egyedi és vonzó weboldalak tervezése, amelyek tükrözik vállalkozásod arculatát és passzolnak az igényeidhez.",
       "Email küldés az oldalról, galéria és interaktív elemek színesíthetik a vállalkozásodat bemutató honlapot.",
+      "Weboldal keresőoptimalizálása (SEO) és folyamatos karbantartása, hogy mindig naprakész és könnyen megtalálható legyen.",
     ],
   },
   {
@@ -129,19 +129,19 @@ const experiences = [
         "Ez a folyamat tervezést és odafigyelést igényel, bízd ránk a brand-ed és válj sikeressé.",
       ],
     },*/
-  {
-    title: "Grafika tervezés",
-    company_name: "1-2 hét",
-    icon: grafika,
-    iconBg: "#47b39d",
-    date: "",
-    points: [
-      "Az igényes grafika emeli egy vállalkozás profiljának minőségét. ",
-      "Például az egységes design segít abban, hogy egy honlapot könnyen megjegyezzenek és újra felkeressék.",
-      "Nálunk biztos lehetsz abban, hogy a neked megfelelő stílust fogod kapni.",
-      "Legyen Tiéd a legfigyelemfelkeltőbb grafika, amit a honlapodon és a közzösségi médián is használhatsz.",
-    ],
-  },
+    {
+      title: "Weboldal karbantartás",
+      company_name: "Igény szerint",
+      icon: grafika,
+      iconBg: "#47b39d",
+      date: "",
+      points: [
+        "Ha már van honlapod, de fejlesztenél rajta?",
+        "Szeretnéd felfrissíteni a megjelenést?",
+        "Mi azon leszünk, hogy a legmegfelelőbb végeredményt kapjad.",
+        "Folyamatosan rendelkezésre állunk az esetleges hibák kijavítására.",
+      ],
+    },
 ];
 
 const testimonials = [

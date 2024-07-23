@@ -43,13 +43,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Weboldal készítéssel és üzemeltetéssel foglalkozunk. 
-        Ebbe beletartozik a tervezés, kivitelezés, publikálás és weboptimalizáció is.
-        Legfőbb célunk, hogy olyan honlapot hozzunk létre, ami igényes, jól működő és praktikus. 
-        Különleges kéréseknek is szívesen eleget teszünk természetesen, mivel nálunk 
-        az ügyfél az első. <br/> Shopify webshop tervezésben is otthon vagyunk. Az online vezetett raktárkészlet a termékekről, 
-        a fizetési rendszer és a termékek felvitele is a mi gondunk, neked csak a jó termékeket kell megtalálnod.
-        <br/>Legyen szó étteremről, manufaktúráról, termék vagy szolgáltatás értékesítésről, mi biztosan kihozzuk a maximumot a honlapodból! 
+        Weboldal készítéssel és üzemeltetéssel foglalkozunk. Célunk, hogy igényes, jól működő 
+        és praktikus weboldalakat hozzunk létre, amelyek megfelelnek ügyfeleink elvárásainak. 
+        Teljeskörű weboldal készítést kínálunk, amely magában foglalja a professzionális dizájntervezést, 
+        a modern technológiákkal történő kivitelezést, a zökkenőmentes publikálást, valamint a 
+        keresőoptimalizálást, hogy weboldala könnyen megtalálható legyen. Ezen kívül Shopify webshopok 
+        tervezésében is otthon vagyunk. Az online raktárkészlet nyilvántartását, a fizetési rendszer 
+        integrációját és a termékek feltöltését is elvégezzük, így Neked csak a megfelelő termékeket 
+        kell megtalálni. Minden erőnkkel azon dolgozunk, hogy az általad megálmodott weboldalt a lehető 
+        legmagasabb színvonalon valósítsuk meg! 
         
 
       </motion.p>

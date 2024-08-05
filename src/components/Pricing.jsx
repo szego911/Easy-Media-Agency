@@ -18,7 +18,7 @@ const Pricing = () => {
         "Rövid határidővel elkészített wordpress oldal egyedi design alapján. Ideális, ha egyszerű honlap kell kevés funkcióval. ",
       green: "/src/assets/green-dot.png",
       services: [
-        "Tárhely és domain ügyintézés*",
+        "Tárhely és domain ügyintézés",
         "Folyamatos kapcsolattartás",
         "1 Bemutatkozó bemutatkozó oldal",
         "Egyedi design",
@@ -38,7 +38,7 @@ const Pricing = () => {
         "Egyedileg tervezett honlap, galériával, kapcsolati űrlappal és igény szerinti funkciókkal.",
       green: "/src/assets/green-dot.png",
       services: [
-        "Tárhely és domain ügyintézés*",
+        "Tárhely és domain ügyintézés",
         "Folyamatos kapcsolattartás",
         "Kezdőoldal és 4 tartalmi oldal",
         "A forráskód a Te tulajdonod lesz",
@@ -63,7 +63,7 @@ const Pricing = () => {
         "Shopify webshop felállítása. Ideális sajáttermékek eladásához, vagy akár dropshippinghez.",
       green: "/src/assets/green-dot.png",
       services: [
-        "Tárhely és domain ügyintézés*",
+        "Tárhely és domain ügyintézés",
         "Folyamatos kapcsolattartás",
         "Kezdőoldal és 4 tartalmi oldal",
         "Egyedi design",

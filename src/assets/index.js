@@ -26,6 +26,7 @@ import tesla from "./company/tesla.png";
 import grafika from "./company/grafika.png";
 
 import vitrinLogo from "./vitrinLogo.png";
+import easycatering from "./easy_catering.png";
 import morasolarLogo from "./morasolarLogo.png";
 import literaLogo from "./literaLogo.png";
 import vitrinbar from "./vitrinbar.png";
@@ -65,6 +66,7 @@ export {
   todoapp,
   tripguide,
   vitrinLogo,
+  easycatering,
   literaLogo,
   morasolarLogo,
 };

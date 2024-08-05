@@ -20,6 +20,7 @@ import {
   shopify,
   vitrinbar,
   todoapp,
+  easycatering,
   tripguide,
   threejs,
   logo,
@@ -136,10 +137,9 @@ const experiences = [
       iconBg: "#47b39d",
       date: "",
       points: [
-        "Ha már van honlapod, de fejlesztenél rajta?",
-        "Szeretnéd felfrissíteni a megjelenést?",
-        "Mi azon leszünk, hogy a legmegfelelőbb végeredményt kapjad.",
-        "Folyamatosan rendelkezésre állunk az esetleges hibák kijavítására.",
+        "Ha már van honlapod, de fejlesztenél rajta",
+        "Gyors és hatékony megoldások technikai problémák esetén, a weboldal zavartalan működéséért.",
+        "A weboldal sebességének és teljesítményének folyamatos monitorozása és javítása a jobb felhasználói élmény érdekében.",
       ],
     },
 ];
@@ -218,12 +218,12 @@ const projects = [
     source_code_link: "https://morasolar.com/",
   },
   {
-    name: "To Do app",
+    name: "Easy Catering",
     description:
-      "Ez az applikáció egy egyetemi projekt munka volt, tartalmaz felhasználó regisztrációt, felhasználói jogusultságokat valamint a teendőinket is felírhatjuk vagy módosíthatjuk.",
+      "Példa egy catering cég egyszerű bemutatkozó honlapjára, ami segíti a leendő ügyfelek tájékozódását. ",
     tags: [
       {
-        name: "php",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
@@ -235,8 +235,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: todoapp,
-    source_code_link: "https://github.com/Patrik119HUN/ToDo-App",
+    image: easycatering,
+    source_code_link: "https://easy-catering.netlify.app/",
   },
 ];
 
